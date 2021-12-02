@@ -10,7 +10,7 @@ public class _09_Remove_Vowels_From_String {
      */
 
     public static String noVowels(String str){
-        return str.replaceAll("[aeiouAEIOU0]", "");
+        return str.replaceAll("[aeiouAEIOU]", "");
     }
 
 

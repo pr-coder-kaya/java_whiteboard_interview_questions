@@ -10,7 +10,7 @@ public class _08_Remove_Specials_From_String {
      */
 
     public static String noSpecials(String str){
-        return str.replaceAll("[^0-9A-z ]", "");
+        return str.replaceAll("[^\\w\\d\\s]", "");
     }
 
 
