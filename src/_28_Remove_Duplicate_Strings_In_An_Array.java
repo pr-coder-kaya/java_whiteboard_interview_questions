@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class _28_Remove_Duplicates_Strings_In_An_Array {
+public class _28_Remove_Duplicate_Strings_In_An_Array {
     /*
     Write a method that takes a String array argument and returns the array back with all duplicates removed
     NOTE: the order of elements returned is not an issue.
@@ -13,8 +13,8 @@ public class _28_Remove_Duplicates_Strings_In_An_Array {
     [bar, 123, foo]
      */
 
-    public static String[] removeDuplicateStrings(String[] numbers){
-        return new HashSet<>(Arrays.asList(numbers)).toArray(new String[0]);
+    public static String[] removeDuplicateStrings(String[] strings){
+        return new HashSet<>(Arrays.asList(strings)).toArray(new String[0]);
     }
 
 

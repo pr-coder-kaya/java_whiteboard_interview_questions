@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class _27_Remove_Duplicates_Numbers_In_An_Array {
+public class _27_Remove_Duplicate_Numbers_In_An_Array {
     /*
     Write a method that takes an int array argument and returns the array back with all duplicates removed
     NOTE: the order of elements returned is not an issue.
