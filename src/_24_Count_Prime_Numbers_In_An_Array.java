@@ -16,7 +16,17 @@ public class _24_Count_Prime_Numbers_In_An_Array {
     public static int countPrimeNumbers(int[] numbers){
         int count = 0;
         for (int number : numbers) {
-            if(number == 2 || number == 3 || (number % 2 != 0 && number % 3 != 0 && number % 5 != 0 && number % 7 != 0)) count++;
+            if(number == 2 || number == 3) count++;
+            else if (number > 3){
+                boolean prime = true;
+                for (int i = 2; i <= number / 2; i++) {
+                    if (number % i == 0) {
+                        prime = false;
+                        break;
+                    }
+                }
+                if (prime) count++;
+            }
         }
         return count;
     }
