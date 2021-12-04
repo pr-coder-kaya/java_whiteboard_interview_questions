@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
-public class _45_Find_Numbers_Factorial_In_An_Array {
+public class _46_Find_All_Numbers_Factorial_In_An_Array {
     /*
-    Write a method that takes an int argument and returns number’s factorial.
+    Write a method that takes an int array argument and returns the array back with all elements replaced with their factorial.
     Factorial is the operation of multiplying any natural number with all the natural numbers that are smaller than it
     Ex: 4! = 4*3*2*1, so the result is 24
     NOTE: 0! = 1
