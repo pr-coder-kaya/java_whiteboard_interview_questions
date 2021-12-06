@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class _45_Find_Numbers_Factorial {
     /*
     Write a method that takes an int argument and returns number’s factorial.
