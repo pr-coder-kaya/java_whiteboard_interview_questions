@@ -1,6 +1,5 @@
 package additional_tasks;
 
-import java.util.Hashtable;
 import java.util.TreeMap;
 
 public class _01_Parse_Data_From_A_String_As_Key_And_Values {
@@ -15,7 +14,6 @@ public class _01_Parse_Data_From_A_String_As_Key_And_Values {
     {100=London, 101=Paris, 102=Berlin, 103=Chicago, 104=LA}
      */
 
-    //Hard-coded way without regex
     public static TreeMap<String, String> parseDataAsKeyAndValues(String str){
         TreeMap<String, String> dataTable = new TreeMap<>();
         while(str.contains("{")){
