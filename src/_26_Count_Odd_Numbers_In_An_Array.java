@@ -12,7 +12,7 @@ public class _26_Count_Odd_Numbers_In_An_Array {
     public static int countOddNumbers(int[] numbers){
         int count = 0;
         for (int number : numbers) {
-            if(number < 0) count++;
+            if(number % 2 != 0) count++;
         }
         return count;
     }
