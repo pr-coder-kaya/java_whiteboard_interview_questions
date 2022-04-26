@@ -10,7 +10,7 @@ public class _10_Remove_Consonants_From_String {
      */
 
     public static String noConsonants(String str){
-        return str.replaceAll("[^aeiouAEIOU\\d\\W]", "");
+        return str.replaceAll("[a-zA-Z&&[^AEIOUaeiou]]", "");
     }
 
 
