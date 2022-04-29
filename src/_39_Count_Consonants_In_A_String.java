@@ -9,12 +9,12 @@ public class _39_Count_Consonants_In_A_String {
     I like Java
 
     EXPECTED OUTPUT:
-    6
+    4
      */
 
-    public static int countVowels(String str){
+    public static int countConsonants(String str){
         int count = 0;
-        Pattern pattern = Pattern.compile("[^aeiouAEIOU]");
+        Pattern pattern = Pattern.compile("[a-zA-Z&&[^aeiouAEIOU]]");
 
         for(char c : str.toCharArray()){
             Matcher matcher = pattern.matcher(String.valueOf(c));
@@ -26,6 +26,6 @@ public class _39_Count_Consonants_In_A_String {
 
     //Testing method
     public static void main(String[] args) {
-        System.out.println(countVowels("I like Java")); // 6
+        System.out.println(countConsonants("I like Java")); // 4
     }
 }
