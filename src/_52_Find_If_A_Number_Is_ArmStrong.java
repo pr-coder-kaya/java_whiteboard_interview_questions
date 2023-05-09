@@ -26,6 +26,6 @@ public class _52_Find_If_A_Number_Is_ArmStrong {
 
     //Testing method
     public static void main(String[] args) {
-        System.out.println(isArmStrong(371)); //  true
+        System.out.println(isArmStrong(371)); // true
     }
 }

@@ -33,7 +33,7 @@ public class _53_Reverse_A_Number_Without_String {
 
     // Testing method
     public static void main(String[] args) {
-        System.out.println(reverseNumber(371));
-        System.out.println(reverseNumber(12));
+        System.out.println(reverseNumber(371)); // 173
+        System.out.println(reverseNumber(12)); // 21
     }
 }
